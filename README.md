@@ -27,7 +27,12 @@ download any games, BIOS files or keys.
 ## Supported systems
 
 GameCube, Wii, Wii U, Switch, Switch 2, PSP, PS2, PS3, PS4, PS5, Xbox 360 and 3DS, plus Steam and the Stremio and
-Nuvio media apps. Each system uses the emulator you choose for it in setup.
+Nuvio media apps. Each system uses the emulator you choose for it in setup (setup and Settings have a button to each
+emulator's official download page).
+
+**PC games:** your Steam and Epic Games libraries share the PC shelf. Recomps, PC ports and any other program go on a
+**Custom** shelf: add them in Settings → Custom games, and everything installed with
+[Quiver Launcher](https://github.com/tgeorgiadis/quiver-launcher) shows up there by itself.
 
 The easiest layout keeps everything beside Boxshelf (the wizard finds it on its own):
 

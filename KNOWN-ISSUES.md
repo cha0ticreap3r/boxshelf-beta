@@ -26,5 +26,7 @@ than described here.
 
 ## Performance
 
+- **Very large libraries** (thousands of games on one console): the shelf, scanning and box art pages stay quick, but
+  the Museum puts every case in its room and takes a few seconds (and a lot of memory) to open. A fix is planned.
 - On low-end graphics cards the 3D shelf and the Museum can stutter. Settings → Performance → Low helps (it turns
   off the blur and shadows).
