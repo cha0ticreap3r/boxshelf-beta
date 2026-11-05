@@ -82,4 +82,5 @@ Screenshots or a short video help a lot.
 See [KNOWN-ISSUES.md](KNOWN-ISSUES.md) for what's already known, and [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)
 for the open-source parts Boxshelf uses.
 
-Boxshelf is free to download and use. All rights reserved.
+Boxshelf is free software under the [GNU GPL v3.0](https://github.com/sassiestrhihno/boxshelf-source/blob/main/LICENSE).
+The source code is at **[boxshelf-source](https://github.com/sassiestrhihno/boxshelf-source)**.
