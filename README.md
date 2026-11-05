@@ -18,8 +18,8 @@ broken.
 2. Run **Boxshelf.exe**.
 3. Windows may show *"Windows protected your PC"*: the beta isn't code-signed yet. Click **More info**, then
    **Run anyway**.
-4. The setup wizard opens. Point it at your emulators and game folders (or click **Find automatically**), then
-   **Open Boxshelf**.
+4. The setup wizard opens. Click **Find my emulators and games** (or **I'll pick them myself**), tick the consoles
+   you play, then **Open Boxshelf**.
 
 **You need:** Windows 10 or 11 (64-bit), and the emulators and games you already own. Boxshelf doesn't include or
 download any games, BIOS files or keys.
@@ -57,7 +57,7 @@ Emulators and games anywhere else work too: choose their folders in setup or Set
 
 ## Report a problem
 
-1. In Boxshelf, open **Settings → Report a problem → Create**. It saves a zip on your Desktop with the log, your
+1. In Boxshelf, open **Settings → System → Report a problem → Create**. It saves a zip on your Desktop with the log, your
    settings and your PC's graphics details. Passwords, API keys and your RetroAchievements name are removed, and
    your user folder is replaced with `~`.
 2. Open a **[new issue](../../issues/new/choose)** here, say what happened and what you expected, and attach the zip.
@@ -66,9 +66,9 @@ Screenshots or a short video help a lot.
 
 ## Good to know
 
-- **Box art and manuals** download only after you turn them on (the last page of setup, or Settings → Library & art).
-  They come from the libretro thumbnails, the LaunchBox Games Database, GameTDB, GamesDatabase.org and the Internet
-  Archive.
+- **Box art and manuals** download only if you say yes (the last page of setup, or Settings → Box art & manuals).
+  They come from the libretro thumbnails, the LaunchBox Games Database, GameTDB, the Super Mario Wiki,
+  GamesDatabase.org and the Internet Archive.
 - **Your data** stays on your PC: settings, play history and caches live in `data\` beside Boxshelf.exe. Boxshelf has
   no accounts, ads or tracking; it only goes online for art, manuals, achievements and the update check.
 - **Updates**: Boxshelf tells you when a newer beta is out. Download it and unzip it over the old folder; your

@@ -21,10 +21,10 @@ than described here.
 
 ## Art
 
-- Box art for rare or digital-only games may be missing or show a fan-made front. Settings → Art Studio lets you pick
-  another version or your own picture.
+- Box art for rare or digital-only games may be missing or show a fan-made front. Settings → Box art & manuals → Art
+  Studio lets you pick another version or your own picture.
 
 ## Performance
 
-- On low-end graphics cards the 3D shelf and the Museum can stutter. Settings → Display → Performance and the
-  Museum's shadows toggle help.
+- On low-end graphics cards the 3D shelf and the Museum can stutter. Settings → Performance → Low helps (it turns
+  off the blur and shadows).
