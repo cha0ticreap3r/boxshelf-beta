@@ -4,14 +4,22 @@ Boxshelf is a TV-style launcher for your emulators, Steam games and media apps. 
 real box art: you can flip a case, open it, take the disc out, read the manual, and walk the whole collection in the
 Museum. One controller runs everything.
 
-This is a **public beta** for Windows. Thank you for trying it: please tell us what breaks.
+This is a **public beta** for **Windows**, **Android** (made for the AYN Thor and its two screens) and, as an
+experimental first build, **Linux / Steam Deck**. Thank you for trying it: please tell us what breaks.
 
 ## Download
 
-Get the newest zip from the **[Releases](../../releases)** page. Each release lists what changed and what's known to be
-broken.
+Every build is on the **[Releases](../../releases)** page. Each release lists what changed and what's known to be broken.
 
-## Install
+| Your device | File |
+|---|---|
+| Windows 10 / 11 PC | `Boxshelf-<version>-windows.zip` |
+| AYN Thor and other Android devices | `Boxshelf-<version>-android.apk` |
+| Linux / Steam Deck (experimental) | `Boxshelf-<version>-linux.AppImage` |
+
+Boxshelf doesn't include or download any games, BIOS files or keys: you need the emulators and games you already own.
+
+## Install on Windows
 
 1. Unzip the download into a folder of its own, for example `Documents\Boxshelf`. It's portable: it doesn't install
    anything, and deleting the folder removes it.
@@ -21,14 +29,35 @@ broken.
 4. The setup wizard opens. Click **Find my emulators and games** (or **I'll pick them myself**), tick the consoles
    you play, then **Open Boxshelf**.
 
-**You need:** Windows 10 or 11 (64-bit), and the emulators and games you already own. Boxshelf doesn't include or
-download any games, BIOS files or keys.
+**You need:** Windows 10 or 11 (64-bit).
+
+## Install on Android (AYN Thor)
+
+1. Open the **.apk** on your device. The first time, Android asks to allow installs from your browser or file manager.
+2. Open Boxshelf. Setup finds the emulator apps you have installed and asks for your games folders.
+3. Box art downloads in the background into a **Boxshelf Art** folder next to your games.
+
+On the Thor the bottom screen shows the game you're on with its buttons (Settings → Display → Bottom screen turns it
+off). **You need:** Android 7 or newer.
+
+## Install on Linux / Steam Deck (experimental)
+
+1. Put the **.AppImage** somewhere like `~/Applications` and make it executable (right-click → Properties →
+   Permissions, or `chmod +x`).
+2. Run it (on a Steam Deck, in Desktop Mode). Settings are kept in `~/Boxshelf`.
+3. It finds emulators installed as programs, Flatpaks or AppImages (EmuDeck and RetroDECK included) and your games
+   in `~/Emulation/roms`, `~/retrodeck/roms` or on your SD card.
+
+Not there yet on Linux: the Home menu and quit combo during a game (quit from the emulator's own menu), the power
+menu, and Steam Deck Gaming Mode (untested). On Ubuntu 24.04 you may need to start it with `--no-sandbox`.
 
 ## Supported systems
 
-GameCube, Wii, Wii U, Switch, Switch 2, PSP, PS2, PS3, PS4, PS5, Xbox 360 and 3DS, plus Steam and the Stremio and
-Nuvio media apps. Each system uses the emulator you choose for it in setup (setup and Settings have a button to each
-emulator's official download page).
+GameCube, Wii, Wii U, Switch, Switch 2, PSP, PS2, PS3, PS4, PS5, Xbox 360 and 3DS; PlayStation, NES, SNES, N64,
+Game Boy, Game Boy Color, Game Boy Advance, DS, Mega Drive / Genesis, Master System, Game Gear and Dreamcast (through
+RetroArch or their best standalone emulators); plus Steam and the Stremio and Nuvio media apps. Each system uses the
+emulator you choose for it in setup (setup and Settings have a button to each emulator's official download page).
+Which consoles and emulators are available depends on the platform.
 
 **PC games:** your Steam and Epic Games libraries share the PC shelf. Recomps, PC ports and any other program go on a
 **Custom** shelf: add them in Settings → Custom games, and everything installed with
@@ -74,7 +103,8 @@ Screenshots or a short video help a lot.
 - **Box art and manuals** download only if you say yes (the last page of setup, or Settings → Box art & manuals).
   They come from the libretro thumbnails, the LaunchBox Games Database, GameTDB, the Super Mario Wiki,
   GamesDatabase.org and the Internet Archive.
-- **Your data** stays on your PC: settings, play history and caches live in `data\` beside Boxshelf.exe. Boxshelf has
+- **Your data** stays on your device: on Windows settings, play history and caches live in `data\` beside
+  Boxshelf.exe (on Linux in `~/Boxshelf/data`). Boxshelf has
   no accounts, ads or tracking; it only goes online for art, manuals, achievements and the update check.
 - **Updates**: Boxshelf tells you when a newer beta is out. Download it and unzip it over the old folder; your
   settings are kept.
