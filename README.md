@@ -7,6 +7,9 @@ Museum. One controller runs everything.
 This is a **public beta** for **Windows**, **Android** (made for the AYN Thor and its two screens) and, as an
 experimental first build, **Linux / Steam Deck**. Thank you for trying it: please tell us what breaks.
 
+> **Source code:** Boxshelf is open source (GPL-3.0). The full source is at
+> **[github.com/sassiestrhihno/boxshelf-source](https://github.com/sassiestrhihno/boxshelf-source)**.
+
 ## Download
 
 Every build is on the **[Releases](../../releases)** page. Each release lists what changed and what's known to be broken.
@@ -18,6 +21,8 @@ Every build is on the **[Releases](../../releases)** page. Each release lists wh
 | Linux / Steam Deck (experimental) | `Boxshelf-<version>-linux.AppImage` |
 
 Boxshelf doesn't include or download any games, BIOS files or keys: you need the emulators and games you already own.
+
+Want to read or build the code? It's in **[boxshelf-source](https://github.com/sassiestrhihno/boxshelf-source)**.
 
 ## Install on Windows
 
