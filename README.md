@@ -1,5 +1,7 @@
 # Boxshelf beta
 
+**[⬇ Download the latest release](../../releases/latest)** · **[Source code (GPL-3.0)](https://github.com/sassiestrhihno/boxshelf-source)** · [Source zip of the latest version](https://github.com/sassiestrhihno/boxshelf-source/archive/refs/tags/v1.82.0-beta.10.zip)
+
 Boxshelf is a TV-style launcher for your emulators, Steam games and media apps. Your games sit on a 3D shelf with
 real box art: you can flip a case, open it, take the disc out, read the manual, and walk the whole collection in the
 Museum. One controller runs everything.
