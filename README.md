@@ -19,7 +19,7 @@ Every build is on the **[Releases](../../releases)** page. Each release lists wh
 | Your device | File |
 |---|---|
 | Windows 10 / 11 PC | `Boxshelf-<version>-windows.zip` |
-| Android: AYN Thor and other Android devices | `Boxshelf-<version>-android-thor.apk` |
+| **Android**, including the dual-screen AYN Thor (both screens) | `Boxshelf-<version>-android-thor.apk` |
 | Linux / Steam Deck (experimental) | `Boxshelf-<version>-linux.AppImage` |
 
 Boxshelf doesn't include or download any games, BIOS files or keys: you need the emulators and games you already own.
